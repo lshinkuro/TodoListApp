@@ -17,6 +17,12 @@
 		36A550F72C6474DB007082E2 /* TodoListAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A550F62C6474DB007082E2 /* TodoListAppTests.swift */; };
 		36A551012C6474DB007082E2 /* TodoListAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A551002C6474DB007082E2 /* TodoListAppUITests.swift */; };
 		36A551032C6474DB007082E2 /* TodoListAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A551022C6474DB007082E2 /* TodoListAppUITestsLaunchTests.swift */; };
+		36A551152C647B4C007082E2 /* TaskTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A551132C647B4C007082E2 /* TaskTableViewCell.swift */; };
+		36A551162C647B4C007082E2 /* TaskTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36A551142C647B4C007082E2 /* TaskTableViewCell.xib */; };
+		36A551182C647CBD007082E2 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A551172C647CBD007082E2 /* CoreDataManager.swift */; };
+		36A5511A2C649EB1007082E2 /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A551192C649EB1007082E2 /* FormView.swift */; };
+		36A5511C2C649EF3007082E2 /* Ext + UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A5511B2C649EF3007082E2 /* Ext + UIView.swift */; };
+		36A5511E2C649F20007082E2 /* Ext+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A5511D2C649F20007082E2 /* Ext+UIColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,12 @@
 		36A550FC2C6474DB007082E2 /* TodoListAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodoListAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		36A551002C6474DB007082E2 /* TodoListAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListAppUITests.swift; sourceTree = "<group>"; };
 		36A551022C6474DB007082E2 /* TodoListAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		36A551132C647B4C007082E2 /* TaskTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTableViewCell.swift; sourceTree = "<group>"; };
+		36A551142C647B4C007082E2 /* TaskTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TaskTableViewCell.xib; sourceTree = "<group>"; };
+		36A551172C647CBD007082E2 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		36A551192C649EB1007082E2 /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
+		36A5511B2C649EF3007082E2 /* Ext + UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ext + UIView.swift"; sourceTree = "<group>"; };
+		36A5511D2C649F20007082E2 /* Ext+UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ext+UIColor.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +121,12 @@
 				36A550EA2C6474DB007082E2 /* LaunchScreen.storyboard */,
 				36A550ED2C6474DB007082E2 /* Info.plist */,
 				36A550E52C6474D9007082E2 /* TodoListApp.xcdatamodeld */,
+				36A551132C647B4C007082E2 /* TaskTableViewCell.swift */,
+				36A551142C647B4C007082E2 /* TaskTableViewCell.xib */,
+				36A551172C647CBD007082E2 /* CoreDataManager.swift */,
+				36A551192C649EB1007082E2 /* FormView.swift */,
+				36A5511B2C649EF3007082E2 /* Ext + UIView.swift */,
+				36A5511D2C649F20007082E2 /* Ext+UIColor.swift */,
 			);
 			path = TodoListApp;
 			sourceTree = "<group>";
@@ -234,6 +252,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36A551162C647B4C007082E2 /* TaskTableViewCell.xib in Resources */,
 				36A550E92C6474DB007082E2 /* Assets.xcassets in Resources */,
 				36A550EC2C6474DB007082E2 /* Base in Resources */,
 				36A550E42C6474D9007082E2 /* Base in Resources */,
@@ -261,8 +280,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36A551182C647CBD007082E2 /* CoreDataManager.swift in Sources */,
 				36A550E12C6474D9007082E2 /* ViewController.swift in Sources */,
+				36A5511C2C649EF3007082E2 /* Ext + UIView.swift in Sources */,
+				36A5511A2C649EB1007082E2 /* FormView.swift in Sources */,
 				36A550DD2C6474D9007082E2 /* AppDelegate.swift in Sources */,
+				36A5511E2C649F20007082E2 /* Ext+UIColor.swift in Sources */,
+				36A551152C647B4C007082E2 /* TaskTableViewCell.swift in Sources */,
 				36A550DF2C6474D9007082E2 /* SceneDelegate.swift in Sources */,
 				36A550E72C6474D9007082E2 /* TodoListApp.xcdatamodeld in Sources */,
 			);
